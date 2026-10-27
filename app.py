@@ -35,7 +35,7 @@ def carregar_dados(caminho_arquivo):
     df_completo = pd.concat(dados_totais, ignore_index=True)
     return df_completo
 
-caminho_arquivo = r"H:\python\DADOS\Exemplos\Tabela 1.1.2.xls"
+caminho_arquivo = r"Tabela 1.1.2.xls"
 
 
 try:
